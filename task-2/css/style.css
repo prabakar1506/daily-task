@@ -1,1 +1,82 @@
-
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	font-family:sans-serif;
+}
+.folio-head{
+	        padding:2rem 8rem;
+			text-align:center;
+}
+.folio-head h2{
+	           padding-bottom:1.5rem;
+}
+.nav{
+	  text-align:center;
+	  padding-top:1rem;
+	  
+}
+.nav ul li{
+	        list-style-type:none;
+			display:inline-block;
+					
+}
+.nav ul li a{ 
+             text-decoration:none;
+			 color:black;
+			 padding-left:0.5rem;
+			 
+}
+.nav ul li .active{
+	         color:blue;
+}
+.portfolio-flex{ 
+             display:flex;
+			 flex-wrap:wrap;
+			 padding:2rem 10rem;
+}
+.items img{
+	        width:100%;
+}
+.items{
+	   margin:1rem;
+	   width:30%
+}
+.profile{
+	      background-image:url("D:/fabevy/daily-task/task-2/img/cta-bg.jpg");
+		  background-attachment:fixed;
+		  position:relative;
+		  
+}	
+.profile::after{
+	            content:"";
+				background-color:black;
+				position:absolute;
+				opacity:0.5;
+				top:0;
+				right:0;
+				bottom:0;
+				left:0;
+	
+}
+.profile-content img{
+	                  width:80px;
+					  height:80px;
+					  border:5px solid gray;
+					  border-radius:100%;
+}
+.profile-content h5{
+	                 color:gray;
+					 font-size:1rem;
+}
+.profile-content{
+	              text-align:center;
+				  line-height:2rem;
+				  color:white;
+				  padding:5rem;
+				  position:relative;
+				  z-index:1;
+}
+iconify-icon{
+	          font-size:2rem;
+	
