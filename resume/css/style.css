@@ -1,0 +1,354 @@
+
+.container{
+	       margin: 20px 30px;
+		   font-family: 'Poppins', sans-serif;
+	
+}
+.container h3{
+	           text-decoration:underline;
+}
+        /* header starts */
+header{
+		 text-align:center;
+}
+.head h2{
+		  font-size:25px;
+		  color:#03a9f4;
+		  font-weight:bold;
+		  margin-bottom:10px;
+}
+.head p{
+		 font-size:9px;
+		 margin-bottom:10px ;
+}
+.head a{
+		 text-decoration:none;
+		 color:#000000;
+
+}          /* header end */
+		  /* section start */
+.resume h3{
+	        font-size:16px;
+			font-weight:bold;
+			margin-bottom:15px;
+}
+.resume h4{
+	        font-size:15px;
+			font-weight:bold;
+			margin-bottom:10px;
+}	
+.resume p{
+	        font-size:14px;
+			margin-bottom:10px;
+}
+          /* section ends */
+		 /* extra-skill start */
+		 
+.extra-skill h3{
+				  font-size:16px;
+				  font-weight:bold;
+				  margin-bottom:10px;
+}
+.extra-skill h4{
+	             font-size:15px;
+				 color:#03a9f4;
+				 font-weight:bold;
+				 margin-bottom:10px;
+} 
+.extra-skill p{
+	            font-size:14px;
+				margin-bottom:10px;
+}	 
+             /* extra-skill End */
+			 /* project-start */
+
+.project h3{
+			  font-size:16px;
+			  font-weight:bold;
+			  margin-bottom:10px;
+}		
+.project .border{
+                border:1px solid black;
+				margin-bottom:30px;
+				width:90%;
+}
+.project td{
+                border:1px solid black;
+}
+.project h4{
+	        font-size:15px;
+			 font-weight:bold;
+			 margin-bottom:10px;
+}
+.project p,li{
+	         font-size:14px;
+			 margin-bottom:10px;
+}
+.project a{
+	         font-size:10px;
+			 text-decoration:none;
+			 margin-bottom:10px;
+}
+.project td{
+            padding:10px;	
+}
+.list li{
+	     list-style-type:square;
+		 margin-left:20px;
+		 padding-top:10px;
+}	
+         /* project end   */
+		 /* declaration starts */
+.declaration h3{
+	              font-size:16px;
+				  font-weight:bold;
+				  margin-bottom:10px;
+}	
+.declaration h4{
+	             font-size:15px;
+				 font-weight:bold;
+}
+.declaration p{
+	            font-size:14px;
+				text-transform:capitalize;
+				text-indent:30px;
+			    margin-bottom:15px;
+}
+          /* declaration ends */
+		  
+@media(min-width: 768px){
+						
+						/* header starts */
+						
+						.container{
+						margin: 30px 50px;
+								}
+
+						header{
+								 text-align:center;
+						}
+						.head h2{
+								  font-size:40px;
+								  margin-bottom:20px;
+						}
+						.head p{
+								 font-size:18px;
+								  margin-bottom:20px;
+						}
+						.head a{
+								 text-decoration:none;
+								 color:#000000;
+						}
+						       /* header ends */
+							   
+							 /* section start */
+						.resume h3{
+									font-size:20px;
+									font-weight:bold;
+									margin-bottom:20px;
+						}
+						.resume h4{
+									font-size:15px;
+									font-weight:bold;
+									margin-bottom:15px;
+						}	
+						.resume p{
+									font-size:16px;
+									margin-bottom:20px;
+						}
+								  /* section ends */
+								  
+								 /* extra-skill start */
+		 
+						.extra-skill h3{
+										  font-size:20px;
+										  font-weight:bold;
+										  margin-bottom:20px;
+						}
+						.extra-skill h4{
+										 font-size:15px;
+										 color:#03a9f4;
+										 font-weight:bold;
+										 margin-bottom:15px;
+						} 
+						.extra-skill p{
+										font-size:16px;
+										margin-bottom:20px;
+						}	 
+									 /* extra-skill End */
+									 
+									 /* project-start */
+
+						.project h3{
+									  font-size:20px;
+									  font-weight:bold;
+									  margin-bottom:15px;
+						}		
+						.project .border{
+										border:1px solid black;
+										margin-bottom:30px;
+										width:100%;
+						}
+						.project td{
+										border:1px solid black;
+						}
+						.project h4{
+									 font-size:15px;
+									 font-weight:bold;
+									 margin-bottom:15px;
+						}
+						.project p,li{
+									 font-size:16px;
+									 margin-bottom:10px;
+						}
+						.project a{
+									 font-size:16px;
+									 text-decoration:none;
+									 margin-bottom:15px;
+						}
+						.project td{
+									padding:20px;	
+						}
+						.list li{
+								 list-style-type:square;
+								 margin-left:30px;
+								 padding-top:20px;
+						}	
+								 /* project end   */
+								 
+							    /* declaration starts */
+						.declaration h3{
+										  font-size:20px;
+										  font-weight:bold;
+										  margin-bottom:15px;
+						}	
+						.declaration h4{
+										 font-size:15px;
+										 font-weight:bold;
+						}
+						.declaration p{
+										font-size:16px;
+										text-transform:capitalize;
+										text-indent:40px;
+										margin-bottom:20px;
+						}
+								  /* declaration ends */
+}
+@media(min-width: 1024px){
+	                    
+						/* header starts */
+						.container{
+						margin: 40px 80px;
+								}
+	
+						header{
+								 text-align:center;
+						}
+						.head h2{
+								  font-size:45px;
+								   margin-bottom:25px;
+						}
+						.head p{
+								 font-size:20px;
+								 margin-bottom:25px;
+						}
+						.head a{
+								 text-decoration:none;
+								 color:#000000;
+						}
+						
+						           /* header ends */
+						
+								  /* section start */
+						.resume h3{
+									font-size:25px;
+									font-weight:bold;
+									margin-bottom:25px;
+						}
+						.resume h4{
+									font-size:20px;
+									font-weight:bold;
+									margin-bottom:20px;
+						}	
+						.resume p{
+									font-size:18px;
+									margin-bottom:25px;
+						}
+								  /* section ends */
+						
+								/* extra-skill start */
+		 
+						.extra-skill h3{
+										  font-size:25px;
+										  font-weight:bold;
+										  margin-bottom:25px;
+						}
+						.extra-skill h4{
+										 font-size:20px;
+										 color:#03a9f4;
+										 font-weight:bold;
+										 margin-bottom:20px;
+						} 
+						.extra-skill p{
+										font-size:18px;
+										margin-bottom:25px;
+						}	 
+									 /* extra-skill End */
+									 
+									/* project-start */
+
+						.project h3{
+									  font-size:25px;
+									  font-weight:bold;
+									  margin-bottom:20px;
+						}		
+						.project .border{
+										border:1px solid black;
+										margin-bottom:30px;
+										width:100%;
+						}
+						.project td{
+										border:1px solid black;
+						}
+						.project h4{
+									font-size:20px;
+									 font-weight:bold;
+									 margin-bottom:20px;
+						}
+						.project p,li{
+									 font-size:18px;
+									 margin-bottom:20px;
+						}
+						.project a{
+									 font-size:18px;
+									 text-decoration:none;
+									 margin-bottom:20px;
+						}
+						.project td{
+									padding:30px;	
+						}
+						.list li{
+								 list-style-type:square;
+								 margin-left:40px;
+								 padding-top:20px;
+						}	
+								 /* project end   */
+								 
+								/* declaration starts */
+						.declaration h3{
+										  font-size:25px;
+										  font-weight:bold;
+										  margin-bottom:20px;
+						}	
+						.declaration h4{
+										 font-size:20px;
+										 font-weight:bold;
+						}
+						.declaration p{
+										font-size:18px;
+										text-transform:capitalize;
+										text-indent:50px;
+										margin-bottom:25px;
+						}
+								  /* declaration ends */
+}
