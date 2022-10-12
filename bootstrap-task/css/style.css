@@ -1,0 +1,26 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+.container{
+	        padding:5rem 8rem;
+}
+.head{
+	   text-align:center;
+}
+.head h1{
+	       color:#012970;
+}
+.head h5{
+	      color:#5D75F1;
+}
+.row{
+	  padding-top:2rem;
+}
+.col{
+	 padding-left:2rem;
+}
+.card-title{
+	          color:#012970;
+}
