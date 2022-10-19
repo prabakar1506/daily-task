@@ -944,6 +944,14 @@
 .active{
 		 color:blue;
 }
+.sub-img{
+	      position:relative;
+		  text-align:center;
+		  display:flex;
+		  justify-content:center;
+		  align-items:center;
+		  
+}
 .sub-img img{ 
               width:100%;
 			  margin:0.5rem 0rem;
@@ -951,6 +959,30 @@
 }
 .container-9{
 	         padding:0rem 1rem;
+}
+.animation {
+		  position:absolute;
+		  padding-top:25%;
+		  color:white;
+		  content:"";
+		  background-color:black;
+		  opacity:0;
+		  top:0;
+		  bottom:0;
+		  left:0;
+		  right:0;
+				  
+}
+.animation:hover{
+	              opacity:0.5;
+				  
+}
+.anime-icon iconify-icon{
+	                      border:1px solid white;
+						  border-radius:50%;
+						  background-color:white;
+						  color:skyblue;
+	
 }
 @media(min-width:768px){
 	
@@ -1537,11 +1569,11 @@ textarea{
 	  padding:4rem 3rem;
 }
 .form-item input{
-	              width:46%;
+	              width:49%;
 				  
 }
 .red{
-	 margin-left:3rem;
+	 margin-left:2.3rem;
 }
 .form-item{
 	         margin-bottom:1rem;
@@ -1586,14 +1618,15 @@ textarea{
 		  /* footer section start */
 		  
 .footer{
-	     background-color:#587187;
+	     background-color:#5C768D;
 }
 .container-13{
 	          width:90%;
+			  margin:auto;
 			  color:white;
 }
 .foot1{
-       padding:3rem 2rem;
+       padding:3rem 0rem;
 }
 span{
 	  font-weight:bold;
@@ -1673,9 +1706,9 @@ span{
 			 width:50%;
 }
 .foot4 a{
-	     border:1px solid skyblue;
+	     border:1px solid #5295CE;
 		 text-decoration:none;
-		 background-color:skyblue;
+		 background-color:#5295CE;
 		 color:white;
 		 position:absolute;
 		 padding:0.5rem 1rem;
@@ -1683,11 +1716,12 @@ span{
 @media(min-width:768px){
 	
 .footer{
-	     background-color:#587187;
+	     background-color:#5C768D;
 		 padding:3rem 0rem;;
 }
 .container-13{
 	          width:90%;
+			  margin:auto;
 			  color:white;
 }
 .footer-flex1{
@@ -1780,9 +1814,9 @@ span{
 			 width:50%;
 }
 .foot4 a{
-	     border:1px solid skyblue;
+	     border:1px solid #5295CE;
 		 text-decoration:none;
-		 background-color:skyblue;
+		 background-color:#5295CE;
 		 color:white;
 		 position:absolute;
 		 padding:0.5rem 1rem;
@@ -1794,11 +1828,12 @@ span{
 	         display:flex;
 }
 .footer{
-	     background-color:#587187;
+	     background-color:#5C768D;
 		 padding:2rem 0rem;;
 }
 .container-13{
 	          width:90%;
+			  margin:auto;
 			  color:white;
 }
 .foot1{
@@ -1831,7 +1866,7 @@ span{
 	                    color:white;
 }
 .foot2{
-	     padding-left:10rem;
+	     padding-left:3rem;
 		 padding-top:4.5rem;
 }
 .foot2 h4{
@@ -1885,12 +1920,29 @@ span{
 			 width:80%;
 }
 .foot4 a{
-	     border:1px solid skyblue;
+	     border:1px solid #5295CE;
 		 text-decoration:none;
-		 background-color:skyblue;
+		 background-color:#5295CE;
 		 color:white;
 		 position:absolute;
 		 padding:1rem 2rem;
 }	
 }	
+        /* footer section end */
+		/* copyright section start */
+
+.container-14{
+              text-align:center;
+			  color:white;
+			  border-top:1px solid gray;
+              background-color:#587187;
+              padding:2rem 0rem;			  
+	
 }
+.container-14 p{
+	             padding-bottom:2rem;
+}
+.container-14 span{
+	                font-weight:bold;
+	 
+}		
