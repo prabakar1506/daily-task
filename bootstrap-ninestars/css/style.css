@@ -1,5 +1,44 @@
-*{
-	margin:0px;
-	padding:0px;
-	border-sizing:border-box;
+/* Header Section Start */
+
+.nav-item .btn {
+	              background-color:#EB5D1E;
+}
+.image img{
+	        width:100%;
+}
+.col .btn{
+	        background-color:#EB5D1E;
+}
+.back{
+	   background-color:#fef8f5;
+	   width:100%;
+}
+.font h1{
+	      font-weight:600;
+		  font-size:3rem;	   
+}
+.font p{
+	     font-size:1.5rem;
+}
+/* header section End */
+
+/* About Section Start */
+
+.about img{
+	         width:90%;
+}
+.about-1 iconify-icon{
+	                  color:#EB5D1E;
+					  font-size:3rem;
+}
+.services{
+		   background-color:#fef8f5;
+		   width:100%;
+}
+.shadow{
+		   margin:1rem;
+}
+.shadow iconify-icon{
+	                  color:#EB5D1E;
+					  font-size:3rem;
 }
