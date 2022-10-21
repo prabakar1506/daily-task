@@ -1,9 +1,9 @@
 /*header css starts*/
-#hed .active{
-	color: #eb5d1e;
+.active{
+	color: #eb5d1e !important;
 }
-#hed .nav-link:hover{
-	color: #eb5d1e;
+.nav-link:hover{
+	color: #eb5d1e !important;
 }
 .get-started,.btn-primary{
     color: #fff;
@@ -81,3 +81,126 @@
 } 
 }
 /*banner media css ends*/
+ 
+ /* about section start */
+ 
+.about p{
+	      color:#5a6570;
+		  font-size:1rem;
+}
+.about img{
+	        width:100%;
+}
+.about-1 iconify-icon{
+	                   font-size:3rem;
+					   color:#eb5d1e;
+}
+.services iconify-icon{
+	                   font-size:3rem;
+					   color:#eb5d1e;
+}
+.services p{
+	         line-height:1.5rem;
+}
+.head h3{
+	     color:#c2b7b1;
+}
+.head h2{
+	     color:#4e4039;
+		 posision:relative;
+		 font-weight:700;
+}
+.service{
+	     background-color:#fef8f5;
+}
+.services .shadow{
+					background-color:white;
+					border-radius:15px;
+					margin:1rem;
+}
+.head h2::after{
+	         content:"";
+			 position:relative;
+			 width:6%;
+			 height:3px;
+			 display:flex;
+			 background-color:#eb5d1e;
+			 justify-content:center;
+			 align-items:center;
+			 margin-top:1rem;
+			 left:47%;
+	
+}
+@media(min-width:1024px){
+
+.services .shadow {
+	               width:21%;
+}
+.services{
+	       width:100%;
+}
+	
+}
+@media(min-width:1280px){
+
+.services .shadow {
+	               width:22%;
+}
+.services{
+	       width:100%;
+}
+}
+/* service section ends */
+
+/* portfolio section starts */
+
+.portfolio .row{ 
+                 margin-bottom:1.5rem;
+				 overflow:hidden;
+	        
+}
+.portfolio .row img{
+	                border-radius:15px;
+}
+.nav-portfolio a{
+	              text-decoration:none;
+				  font-size:1.2rem;
+				  color:black;
+}	
+.nav-portfolio a:hover{
+	                   color: #eb5d1e !important;
+					   
+}
+.nav-portfolio li{
+	               padding:1rem;
+}
+.animation iconify-icon{
+	                      height:40px;
+						  width:40px; 
+						 display:inline-flex;
+						 border-radius:50px;
+						 align-items:center;
+						 justify-content:center;
+			              margin:auto;
+						  background-color:white;
+						  color: #eb5d1e;
+}
+.animation{
+	          opacity:0;
+			  position:absolute;
+			  content:"";
+			  background-color:rgba(31, 53, 72, 0.6);
+			  top:0;
+			  bottom:0;
+			  left:0;
+			  right:0;	
+}
+.portfolio .row:hover .animation{
+	                            opacity:1;
+}
+.anime{
+	   padding:2rem;
+}
+.portfolio .row{
+	         position:relative;
+}
