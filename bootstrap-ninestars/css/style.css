@@ -107,7 +107,6 @@
 }
 .head h2{
 	     color:#4e4039;
-		 posision:relative;
 		 font-weight:700;
 }
 .service{
@@ -202,5 +201,11 @@
 	   padding:2rem;
 }
 .portfolio .row{
-	         position:relative;
+	            position:relative;
+}
+summary{
+	       font-weight:900;
+}
+summary:hover{
+	           color:orange;
 }
