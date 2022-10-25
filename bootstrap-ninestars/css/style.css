@@ -209,3 +209,10 @@ summary{
 summary:hover{
 	           color:orange;
 }
+/* portfoloi section ends */
+
+/* team section starts */
+
+.team .row{
+	       padding:0.5rem;
+}
