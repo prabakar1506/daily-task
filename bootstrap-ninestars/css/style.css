@@ -216,3 +216,88 @@ summary:hover{
 .team .row{
 	       padding:0.5rem;
 }
+/* team section ends */
+
+/* client section starts */
+
+.client-1{
+	       background-color:#FEF8F5;
+		   width:100%;
+}
+.client .row{
+	          width:100%;
+}
+.client img{
+	          width:100%;
+			  padding:2rem;
+}
+/* client section ends */
+
+/* contact section starts */
+
+.form-1 input{
+			    width:100%;
+}
+.form input{
+	         width:105%;
+}
+.form-1 textarea{
+			    width:100%;
+				height:40vh;
+}
+.contact-1 iconify-icon{
+	                    display:flex;
+						border-radius:50%;
+						color:orange;
+						font-size:1.5rem;
+						border:1px solid #fdf1ec;
+						background-color:#fdf1ec;
+						justify-content:center;
+						align-items:Center;
+						height:44px;
+						width:44px;
+}
+.contact-1 .shadow{
+	               border-bottom:3px solid #EB5D1E;
+				   border-top:3px solid #EB5D1E;
+}
+.contact-1 .row:hover iconify-icon{
+	                                background-color:#EB5D1E;
+									color:white;
+	             
+}
+.shadow .col{
+	          display:flex;
+}
+.btn-5{
+	 display:flex;
+	 justify-content:center;
+}
+
+/* form section end */
+/* join section starts */
+
+.join{
+	background-color:#fdf1ec;
+}
+.input{
+	width:50%;
+}
+.input-group{
+	        margin:auto;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			align-items:center;
+			
+}
+.btn-6{
+	    background-color:#C54811;
+		border:none;
+		width:10%;
+		color:white;
+		height:8vh;
+}
+.input-group input{
+				   border:none;
+}
