@@ -294,10 +294,44 @@ summary:hover{
 .btn-6{
 	    background-color:#C54811;
 		border:none;
-		width:10%;
 		color:white;
 		height:8vh;
 }
 .input-group input{
 				   border:none;
+}
+.foot-1 li a{
+	       text-decoration:none;
+		   color:black;
+}
+.foot-1 iconify-icon{
+	                  color:#EB5D1E;
+}
+.foot-1 a:hover{
+	             color:#EB5D1E;
+}
+.foot-1 .icon-7 iconify-icon{
+	                        height:44px;
+							width:44px;
+							display:flex;
+							border-radius:50%;
+							justify-content:center;
+							align-items:center;
+							margin:auto;
+							color:white;
+							background-color:#EB5D1E;
+}
+.icon-7 li{
+	       margin:0.2rem;
+}
+.foot-1{
+	    width:25%;
+		font-size: 14px;
+        line-height: 30px;
+}
+.footer{
+	    background-color:#FEF8F5;
+}
+.gray{
+      color:#EB5D1E;	
 }
