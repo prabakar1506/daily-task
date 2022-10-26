@@ -2,6 +2,10 @@
 .active{
 	color: #eb5d1e !important;
 }
+#hed{
+	 position:relative;
+	 z-index:1;
+}
 .nav-link:hover{
 	color: #eb5d1e !important;
 }
@@ -117,6 +121,9 @@
 					border-radius:15px;
 					margin:1rem;
 }
+.services .shadow:hover{
+	                     border-bottom:3px solid #eb5d1e;
+}
 .head h2::after{
 	         content:"";
 			 position:relative;
@@ -155,6 +162,7 @@
 
 .portfolio .row{ 
                  margin-bottom:1.5rem;
+				 position:relative;
 				 overflow:hidden;
 	        
 }
@@ -200,14 +208,14 @@
 .anime{
 	   padding:2rem;
 }
-.portfolio .row{
-	            position:relative;
-}
 summary{
 	       font-weight:900;
 }
 summary:hover{
 	           color:orange;
+}
+.faq{
+	  background-color:#FEF8F5;
 }
 /* portfoloi section ends */
 
