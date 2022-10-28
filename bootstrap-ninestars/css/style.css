@@ -284,16 +284,6 @@ summary:hover{
 
 /* contact section starts */
 
-.form-1 input{
-			    width:100%;
-}
-.form input{
-	         width:105%;
-}
-.form-1 textarea{
-			    width:100%;
-				height:40vh;
-}
 .contact-1 iconify-icon{
 	                    display:flex;
 						border-radius:50%;
@@ -322,6 +312,11 @@ summary:hover{
 	 display:flex;
 	 justify-content:center;
 }
+@media(min-width:320px){
+	                    .contact{
+							               margin:1rem;
+						}
+}
 
 /* form section end */
 /* join section starts */
@@ -329,28 +324,10 @@ summary:hover{
 .join{
 	background-color:#fdf1ec;
 }
-.input{
-	width:50%;
-}
-.input-group{
-	        margin:auto;
-			display:flex;
-			justify-content:center;
-			align-items:center;
-			align-items:center;
-			
-}
-.btn-6{
-	    background-color:#C54811;
-		border:none;
-		color:white;
-		height:8vh;
-}
-.input-group input{
-				   border:none;
-}
 .foot-1 li a{
 	       text-decoration:none;
+		   font-size:16px;
+		   font-family:sans-serif;
 		   color:black;
 }
 .foot-1 iconify-icon{
@@ -370,13 +347,23 @@ summary:hover{
 							color:white;
 							background-color:#EB5D1E;
 }
-.icon-7 li{
-	       margin:0.2rem;
+.foot-1 .icon-7 li{
+	               margin:0.2rem;
 }
 .foot-1{
-	    width:25%;
-		font-size: 14px;
-        line-height: 30px;
+		font-size:16px;
+		 font-family:sans-serif;
+}
+.foot-1 ul li{
+	           line-height: 2.5rem;
+}
+.foot-1 ul{
+	        padding-left:0 !important;
+}
+.foot{
+	  margin-right:1rem;
+	  justify-content:center;
+	  display:flex;
 }
 .footer{
 	    background-color:#FEF8F5;
